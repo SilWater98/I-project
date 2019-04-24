@@ -1,0 +1,51 @@
+.warm-zand  {
+    background-color:#C5AE91;
+}
+
+.no-border {
+    border: 0;
+}
+
+a:hover {
+    color: #C5AE91
+}
+
+.btn-primary:hover {
+    background-color: #AA8851;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #AA8851;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: none;
+  }
+
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+body{
+    color:#272522;
+}
+
+.dropdown-menu {
+    padding: 0;
+    min-width: 1rem;
+}
+
+.dropright .dropdown-menu {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
